@@ -11,8 +11,10 @@ header{
     background-color:  #FFF8F3;
 }
 
-h1{
+.nav-title{
     color: #181818;
+    size: 45px;
+    font-weight: 800;
 }
 
 .nav-title-style{
@@ -22,7 +24,7 @@ h1{
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 49px 226px 0  230px;
+    margin: 0 226px 0  230px;
 
 
 }
@@ -59,11 +61,95 @@ nav ul li{
     align-items: center;
 }
 
-.dev-image{
-    height: 584px;
-    width: 676;
+.banner-content{
+    margin: 0 auto;
+}
+
+header{
+    background-image: url(images/developer.png), url(images/header_bg.png);
+    background-position: left, right bottom;
+    background-repeat: no-repeat;
 }
 
 .banner-content{
+   margin: 0 auto;
+}
+
+.greetings{
+    font-size: 45px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    color: #474747;
+}
+
+.dev-name{
+    font-size: 85px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    color: #181818;
+}
+
+.dev-description{
+    font-size: 18px;
+    color: #757575;
+    margin: 0;
+    padding: 20px 0;
+}
+
+
+
+.download-btn{
+    background-color: #FD6E0A;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 18px;
+    font-size: 20px;
+    text-decoration: bold;
+    margin-right: 30px;
+}
+
+.contact-btn{
+    background-color: #FFFFFF;
+    color: #FD6E0A;
+    border: none;
+    border-radius: 5px;
+    padding: 18px;
+    font-size: 20px;
+    text-decoration: bold;
+    padding: 18px 23px 19px 24px;
+    border: 1px solid #FD6E0A;
+    font-size: 20px;
+    
+
+}
+/* banner style end */
+/* About section style start */
+main{
+    max-width: 1140px;
+    max-height: 540px;
     margin: 0 auto;
+}
+.about{
+    background-color: #FFF8F3;
+    padding: 131px 157px;
+    margin-top: 41px;
+    text-align: center;
+}
+
+.about-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+
+.about-description{
+    color: #757575;
+    font-size: 18px;
+}
+
+.about-item{
+    display: flex;
 }
