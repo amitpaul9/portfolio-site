@@ -203,3 +203,61 @@ skills-section{
     box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
     padding: 30px;
 }
+
+/* about section style end */
+
+/* resume section style start */
+
+.resume{
+    display: flex;
+    gap: 71px;
+    align-items: center;
+}
+
+.resume-title{
+    text-align: center;
+   color: rgba(24, 24, 24, 1);
+   font-size: 35px;
+   font-weight: bold;
+   padding: 30px 0 0 0;
+}
+
+.resume-collum-title{
+    color: rgba(71, 71, 71, 1);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.experience-title{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgba(71, 71, 71, 1);
+}
+
+.experience-sub-title{
+    color: rgba(117, 117, 117, 1);
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.experience-description{
+    color: rgba(117, 117, 117, 1);
+    font-size: 16px;
+    padding: 0px 0 30px 0;
+}
+
+.download-btn-2{
+    background-color: #FD6E0A;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 18px;
+    font-size: 20px;
+    text-decoration: bold;
+}
+
+.download-btn-secondary{
+    text-align: center;
+    margin: 50px 0 113px 0;
+}
