@@ -1,0 +1,69 @@
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* navigation style start */
+header{
+    background-color:  #FFF8F3;
+}
+
+h1{
+    color: #181818;
+}
+
+.nav-title-style{
+    color: #FD6E0A;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 49px 226px 0  230px;
+
+
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+.hire-me-btn{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #FD6E0A;
+    padding: 19px 35px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+}
+/* navigation style end */
+
+/* shared styles */
+
+
+
+/* banner style start */
+.banner{
+    display: flex;
+    align-items: center;
+}
+
+.dev-image{
+    height: 584px;
+    width: 676;
+}
+
+.banner-content{
+    margin: 0 auto;
+}
