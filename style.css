@@ -150,6 +150,18 @@ main{
     font-size: 18px;
 }
 
-.about-item{
+.about-items{
     display: flex;
+    justify-content: space-between;
+}
+
+.item-title{
+    color: #757575;
+    font-size: 20px;
+}
+
+.item-description{
+    color: #474747;
+    font-size: 20px;
+    font-weight: bold;
 }
