@@ -1,3 +1,9 @@
+*{
+margin: 0;
+/* padding: 0;
+box-sizing: border-box; */
+}
+
 .open-sans-normal {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -67,8 +73,9 @@ nav ul li{
 
 header{
     background-image: url(images/developer.png), url(images/header_bg.png);
-    background-position: left, right bottom;
+    background-position: left , right bottom;
     background-repeat: no-repeat;
+    background-size: 90px, auto;
 }
 
 .banner-content{
@@ -129,7 +136,7 @@ header{
 /* About section style start */
 main{
    max-width: 1140px;
-    max-height: 540px;
+    /* max-height: 540px; */
     margin: 0 auto;
 }
 .about{
@@ -187,10 +194,10 @@ main{
     padding: 0 345 50 345;
 }
 
-skills-section{
-    /* margin: 0 auto; */
+.skills-section{
+    margin: 0 auto;
  max-width: 909px;
-    max-height: 168px;
+    /* max-height: 168px; */
 }
 
 .skills-container{
@@ -261,3 +268,62 @@ skills-section{
     text-align: center;
     margin: 50px 0 113px 0;
 }
+
+/* resume section end */
+/* footer section style start */
+
+footer{
+    display: flex;
+    background-color: #FFF8F3;
+    justify-content: space-around;
+}
+
+.footer-title{
+    color: rgba(24, 24, 24, 1);
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-collum{
+    padding: 130px;
+    
+}
+
+.footer-description{
+    color: rgba(71, 71, 71, 1);
+    font-size: 16px;
+    margin-bottom: 30px;
+    
+}
+
+input{
+    background-color: white;
+    border: none;
+    margin-bottom: 24px;
+    border-radius: 5px;
+    
+}
+
+
+input[placeholder]{
+    font-size: 16px;
+    color: rgba(117, 117, 117, 1);
+    padding: 18px 349px 18px 35px;
+}
+
+textarea {
+   border: none;
+   border-radius: 5px;
+   margin-bottom: 24px;
+}
+
+textarea[placeholder]{
+    font-family: sans-serif;
+     font-size: 16px;
+    color: rgba(117, 117, 117, 1);
+    padding: 18px 365px 134px 30px;
+}
+
+
+/* footer section style end */
