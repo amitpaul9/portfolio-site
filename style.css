@@ -142,10 +142,11 @@ main{
 .about{
      
     background-color: #FFF8F3;
-    padding: 131px 157px;
+    padding: 100px 120px;
     margin-top: 41px;
     text-align: center;
     border-radius: 10px;
+    margin-bottom: 30px;
 }
 
 .about-title{
@@ -158,6 +159,7 @@ main{
     color: #757575;
     font-size: 18px;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .about-items{
